@@ -156,7 +156,7 @@ parent: "Components"
 ## Molecules
 
 
-### Button Group
+### Standard Button Group
 
 #### With Default Buttons
 
@@ -174,49 +174,59 @@ parent: "Components"
   <button class="a-btn a-btn__super">Maybe So</button>
 </div>
 
+### Combined Button Group
+
+#### With Default Buttons
+
+<div class="m-btn-group__combined">
+  <button class="a-btn">Yes</button>
+  <button class="a-btn">No</button>
+  <button class="a-btn">Maybe So</button>
+</div>
+
+#### With Super Buttons
+
+<div class="m-btn-group__combined">
+  <button class="a-btn a-btn__super">Yes</button>
+  <button class="a-btn a-btn__super">No</button>
+  <button class="a-btn a-btn__super">Maybe So</button>
+</div>
+
 
 ### Icon Buttons
 
 #### Button with Icon on the left
 
-<button class="a-btn">
-  <span class="a-btn_icon__left cf-icon cf-icon-delete"></span>
+<button class="a-btn a-btn_icon-position-left a-btn_icon__delete">
   Close
 </button>
 
-<button class="a-btn a-btn__secondary">
-  <span class="a-btn_icon__left cf-icon cf-icon-delete"></span>
+<button class="a-btn a-btn_icon-position-left a-btn_icon__delete a-btn__secondary">
   Close
 </button> - Secondary button
 
-<button class="a-btn a-btn__warning">
-  <span class="a-btn_icon__left cf-icon cf-icon-delete"></span>
+<button class="a-btn a-btn_icon-position-left a-btn_icon__delete a-btn__warning">
   Close
 </button> - Warning button
 
-<button class="a-btn a-btn__disabled">
-  <span class="a-btn_icon__left cf-icon cf-icon-delete"></span>
+<button class="a-btn a-btn_icon-position-left a-btn_icon__delete a-btn__disabled">
   Close
 </button> - Disabled button
 
 #### Button with Icon on the right
 
-<button class="a-btn">
+<button class="a-btn a-btn_icon-position-right a-btn_icon__delete">
   Close
-  <span class="a-btn_icon__right cf-icon cf-icon-delete"></span>
 </button>
 
-<button class="a-btn a-btn__secondary">
+<button class="a-btn a-btn__secondary a-btn_icon-position-right a-btn_icon__delete">
   Close
-  <span class="a-btn_icon__right cf-icon cf-icon-delete"></span>
 </button> - Secondary button
 
-<button class="a-btn a-btn__warning">
+<button class="a-btn a-btn__warning a-btn_icon-position-right a-btn_icon__delete">
   Close
-  <span class="a-btn_icon__right cf-icon cf-icon-delete"></span>
 </button> - Warning button
 
-<button class="a-btn a-btn__disabled">
+<button class="a-btn a-btn__disabled a-btn_icon-position-right a-btn_icon__delete">
   Close
-  <span class="a-btn_icon__right cf-icon cf-icon-delete"></span>
 </button> - Disabled button
