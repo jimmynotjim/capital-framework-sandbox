@@ -127,11 +127,11 @@ parent: "Components"
         <div class="m-big-checkbox_container">
             <input class="a-input"
                    type="checkbox"
-                   name="form_pets"
-                   id="input_pets-1"
+                   name="form_pets__disabled"
+                   id="input_pets-1__disabled"
                    disabled>
             <label class="a-input_label"
-                   for="input_pets-1">
+                   for="input_pets-1__disabled">
                 Dog
             </label>
         </div>
@@ -140,11 +140,11 @@ parent: "Components"
         <div class="m-big-checkbox_container">
             <input class="a-input"
                    type="checkbox"
-                   name="form_pets"
-                   id="input_pets-2"
+                   name="form_pets__disabled"
+                   id="input_pets-2__disabled"
                    disabled>
             <label class="a-input_label"
-                   for="input_pets-2">
+                   for="input_pets-2__disabled">
                 Cat
             </label>
         </div>
@@ -153,11 +153,11 @@ parent: "Components"
         <div class="m-big-checkbox_container">
             <input class="a-input"
                    type="checkbox"
-                   name="form_pets"
-                   id="input_pets-3"
+                   name="form_pets__disabled"
+                   id="input_pets-3__disabled"
                    disabled>
             <label class="a-input_label"
-                   for="input_pets-3">
+                   for="input_pets-3__disabled">
                 Mouse
             </label>
         </div>
