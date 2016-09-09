@@ -8,7 +8,7 @@ parent: "Components"
 
 ### Label header
 
-<label class="form-label-header">
+<label class="a-label__heading">
     Form label header
 </label>
 
@@ -17,7 +17,7 @@ parent: "Components"
 
 ## Example
 
-<input class="input__super" type="text" value="Super input" title="Test input">
+<input class="a-text-input a-text-input__super" type="text" value="Super input" title="Test input">
 <button class="a-btn a-btn__super">Super</button>
 
 
@@ -420,79 +420,27 @@ parent: "Components"
     </div>
 </fieldset>
 
-## Form group
-
-### Form group block
-
-<div class="block">
-    <div class="form-group">
-        <div class="form-group_item">
-            <input type="text" title="Test input">
-        </div>
-        <div class="form-group_item">
-            <input type="text" title="Test input">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="form-group_item">
-            <input type="text" title="Test input">
-        </div>
-        <div class="form-group_item">
-            <input type="text" title="Test input">
-        </div>
-    </div>
-    <div class="form-group">
-        <div class="form-group_item">
-            <input type="text" title="Test input">
-        </div>
-        <div class="form-group_item">
-            <input type="text" title="Test input">
-        </div>
-    </div>
-</div>
-
-### Real world example
-<div class="block">
-    <div class="form-group">
-        <label class="form-label-header">Form group</label>
-        <div class="form-group_item">
-            <input type="text" value="Form group item" title="Test input">
-        </div>
-        <div class="form-group_item">
-            <input type="text" value="Form group item" title="Test input">
-        </div>
-    </div>
-    <div class="form-group">
-        <label class="form-label-header">Form group</label>
-        <div class="form-group_item">
-            <input type="text" value="Form group item" title="Test input">
-        </div>
-        <div class="form-group_item">
-            <input type="text" value="Form group item" title="Test input">
-        </div>
-    </div>
-</div>
 
 ## Input with button
 
 ### Default input and button
 
-<div class="input-with-btn">
-    <div class="input-with-btn_input">
-        <input type="text" title="Test input">
+<div class="o-form__input-w-btn">
+    <div class="o-form__input-w-btn_input-container">
+        <input class="a-text-input" type="text" title="Test input">
     </div>
-    <div class="input-with-btn_btn">
+    <div class="o-form__input-w-btn_btn-container">
         <button class="a-btn">Search</button>
     </div>
 </div>
 
 ### Super input and button
 
-<div class="input-with-btn">
-    <div class="input-with-btn_input">
-        <input class="input__super" type="text" title="Test input">
+<div class="o-form__input-w-btn">
+    <div class="o-form__input-w-btn_input-container">
+        <input class="a-text-input a-text-input__super" type="text" title="Test input">
     </div>
-    <div class="input-with-btn_btn">
+    <div class="o-form__input-w-btn_btn-container">
         <button class="a-btn a-btn__super">Search</button>
     </div>
 </div>
@@ -516,7 +464,7 @@ parent: "Components"
 
 <div class="block">
     <div class="btn-inside-input">
-        <input class="input__super"
+        <input class="a-text-input__super"
                type="text"
                value="This is some really long text to make sure that the button doesn't overlap the content in such a way that this input becomes unusable." title="Test input">
         <button class="a-btn a-btn__super a-btn__link a-btn__secondary">
