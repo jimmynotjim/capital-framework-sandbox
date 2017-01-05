@@ -717,68 +717,113 @@ parent: "Components"
 
 <form class="o-form">
 
-    <fieldset class="o-form_fieldset">
-        <legend class="a-label a-label__heading">
-            Coffee or Tea?
-        </legend>
-        <ul class="m-list m-list__unstyled content-l">
-            <li class="content-l_col content-l_col-1-2">
-                <div class="m-form-field m-form-field__checkbox m-form-field__lg-target">
-                    <input class="a-checkbox"
-                           type="checkbox"
-                           name="form_drink"
-                           id="input_drink-1">
-                    <label class="a-label"
-                           for="input_drink-1">
-                        Coffee
-                    </label>
-                </div>
-            </li>
-            <li class="content-l_col content-l_col-1-2">
-                <div class="m-form-field m-form-field__checkbox m-form-field__lg-target">
-                    <input class="a-checkbox"
-                           type="checkbox"
-                           name="form_drink"
-                           id="input_drink-2">
-                    <label class="a-label"
-                           for="input_drink-2">
-                        Tea
-                    </label>
-                </div>
-            </li>
-        </ul>
+    <fieldset class="o-form_fieldset content-l block">
+        <div class="content-l_col content-l_col-1">
+            <legend class="a-label a-label__heading">
+                Coffee or Tea?
+            </legend>
+        </div>
+        <div class="content-l_col content-l_col-1-2">
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-checkbox"
+                       type="checkbox"
+                       name="form_drink"
+                       id="input_drink-1">
+                <label class="a-label"
+                       for="input_drink-1">
+                    Coffee
+                </label>
+            </div>
+        </div>
+        <div class="content-l_col content-l_col-1-2">
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-checkbox"
+                       type="checkbox"
+                       name="form_drink"
+                       id="input_drink-2">
+                <label class="a-label"
+                       for="input_drink-2">
+                    Tea
+                </label>
+            </div>
+        </div>
     </fieldset>
 
-    <fieldset class="o-form_fieldset">
+    <fieldset class="o-form_fieldset content-l block">
+        <div class="content-l_col content-l_col-1">
+            <legend class="a-label a-label__heading">
+                Cereal or Yogurt?
+            </legend>
+        </div>
+        <div class="content-l_col content-l_col-1-2">
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-radio"
+                       type="radio"
+                       name="form_breakfast"
+                       id="input_breakfast-1">
+                <label class="a-label"
+                       for="input_breakfast-1">
+                    Cereal
+                </label>
+            </div>
+        </div>
+        <div class="content-l_col content-l_col-1-2">
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-radio"
+                       type="radio"
+                       name="form_breakfast"
+                       id="input_breakfast-2">
+                <label class="a-label"
+                       for="input_breakfast-2">
+                    Yogurt
+                </label>
+            </div>
+        </div>
+    </fieldset>
+
+    <fieldset class="o-form_fieldset content-l block">
+        <div class="content-l_col content-l_col-1">
         <legend class="a-label a-label__heading">
-            Cereal or Yogurt?
+            Fruit?
         </legend>
-        <ul class="m-list m-list__unstyled content-l">
-            <li class="content-l_col content-l_col-1-2">
-                <div class="m-form-field m-form-field__radio m-form-field__lg-target">
-                    <input class="a-radio"
-                           type="radio"
-                           name="form_breakfast"
-                           id="input_breakfast-1">
-                    <label class="a-label"
-                           for="input_breakfast-1">
-                        Cereal
-                    </label>
-                </div>
-            </li>
-            <li class="content-l_col content-l_col-1-2">
-                <div class="m-form-field m-form-field__radio m-form-field__lg-target">
-                    <input class="a-radio"
-                           type="radio"
-                           name="form_breakfast"
-                           id="input_breakfast-2">
-                    <label class="a-label"
-                           for="input_breakfast-2">
-                        Yogurt
-                    </label>
-                </div>
-            </li>
-        </ul>
+        </div>
+        <div class="content-l_col content-l_col-1-2">
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-radio" type="radio" name="form_fruit" id="input_fruit-1" />
+                <label class="a-label" for="input_fruit-1">
+                    Apple - Sliced, diced, chopped, puréed, whole
+                    <small>(Mcintosh)</small>
+                </label>
+            </div>
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-radio" type="radio" name="form_fruit" id="input_fruit-2" />
+                <label class="a-label" for="input_fruit-2">
+                    <div class="a-label_text">Pomegranate variety 'Gissarskii Rozovyi'
+                        <small class="a-label_text">(Hard-seeded, sweet, mildly tart variety)</small>
+                    </div>
+                </label>
+            </div>
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-radio" type="radio" name="form_fruit" id="input_fruit-3" />
+                <label class="a-label" for="input_fruit-3">
+                    Pear
+                </label>
+            </div>
+        </div>
+        <div class="content-l_col content-l_col-1-2">
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-radio" type="radio" name="form_fruit" id="input_fruit-4" disabled="" />
+                <label class="a-label" for="input_fruit-4">
+                    Watermelon
+                </label>
+            </div>
+            <div class="m-form-field m-form-field__radio m-form-field__lg-target">
+                <input class="a-radio" type="radio" name="form_fruit" id="input_fruit-5" />
+                <label class="a-label" for="input_fruit-5">
+                    Banana
+                </label>
+            </div>
+        </div>
     </fieldset>
 
 </form>
